@@ -1,8 +1,6 @@
-### 1. Add `.env.example`
+### 1. Add `backend/.env`
 
-Since `.env` must **never** go into Git, add an example file that tells the next developer what environment variable is required.
-
-Create:
+Copy db url:
 
 `backend/.env.example`
 
@@ -10,7 +8,7 @@ Create:
 database_url=postgresql+psycopg2://transaction_user:transaction_pass@localhost:5432/transaction_db
 ````
 
-The developer will copy this to:
+to 
 
 ```text
 backend/.env
